@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IRONVAULT GYM</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./gym.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="#home" class="nav-logo">IRON<span>VAULT</span></a>
+  <ul class="nav-links">
+    <li><a href="#facilities">Facilities</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#membership">Membership</a></li>
+    <li><a href="#trainers">Trainers</a></li>
+    <li><a href="#testimonials">Reviews</a></li>
+  </ul>
+  <button class="nav-cta" onclick="document.getElementById('membership').scrollIntoView({behavior:'smooth'})">Join Now</button>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg" id="heroBg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-tag">Est. 2018 · Premium Fitness</div>
+    <h1 class="hero-title">FORGE<br>YOUR<br><span class="outline">LIMITS</span></h1>
+    <p class="hero-sub">Where iron meets ambition. A state-of-the-art facility built for those who refuse to settle for average.</p>
+    <div class="hero-btns">
+      <a href="#membership" class="btn-primary">Start Today</a>
+      <a href="#facilities" class="btn-outline">Explore Facility</a>
+    </div>
+  </div>
+  <div class="hero-stats">
+    <div class="stat">
+      <div class="stat-num">12<span>K</span></div>
+      <div class="stat-label">Members</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">48<span>+</span></div>
+      <div class="stat-label">Trainers</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">6<span>Y</span></div>
+      <div class="stat-label">Excellence</div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-section">
+  <div class="marquee-track">
+    <span>STRENGTH TRAINING</span><span class="dot">✦</span>
+    <span>CARDIO</span><span class="dot">✦</span>
+    <span>YOGA & WELLNESS</span><span class="dot">✦</span>
+    <span>PERSONAL TRAINING</span><span class="dot">✦</span>
+    <span>NUTRITION PLANS</span><span class="dot">✦</span>
+    <span>CROSSFIT</span><span class="dot">✦</span>
+    <span>BOXING</span><span class="dot">✦</span>
+    <span>SAUNA & RECOVERY</span><span class="dot">✦</span>
+    <span>STRENGTH TRAINING</span><span class="dot">✦</span>
+    <span>CARDIO</span><span class="dot">✦</span>
+    <span>YOGA & WELLNESS</span><span class="dot">✦</span>
+    <span>PERSONAL TRAINING</span><span class="dot">✦</span>
+    <span>NUTRITION PLANS</span><span class="dot">✦</span>
+    <span>CROSSFIT</span><span class="dot">✦</span>
+    <span>BOXING</span><span class="dot">✦</span>
+    <span>SAUNA & RECOVERY</span><span class="dot">✦</span>
+  </div>
+</div>
+
+<!-- FACILITIES -->
+<section class="facilities" id="facilities">
+  <div class="reveal">
+    <div class="section-tag">World-Class Facilities</div>
+    <h2 class="section-title">BUILT FOR<br>PERFORMANCE</h2>
+    <p class="section-sub">Over 25,000 sq ft of premium equipment, purpose-built zones, and recovery facilities.</p>
+  </div>
+  <div class="facilities-grid reveal">
+    <div class="facility-card">
+      <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&q=75" alt="Weight Room" loading="lazy">
+      <div class="facility-tag">Zone 01</div>
+      <div class="facility-info">
+        <div class="facility-name">Weight Room</div>
+        <div class="facility-desc">Over 200 pieces of strength equipment from top global brands. Free weights, machines, and racks.</div>
+      </div>
+    </div>
+    <div class="facility-card">
+      <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=800&q=75" alt="Cardio Zone" loading="lazy">
+      <div class="facility-tag">Zone 02</div>
+      <div class="facility-info">
+        <div class="facility-name">Cardio Zone</div>
+        <div class="facility-desc">Treadmills, bikes, rowers, and ellipticals — all equipped with personal screens and Bluetooth.</div>
+      </div>
+    </div>
+    <div class="facility-card">
+      <img src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=800&q=75" alt="Yoga Studio" loading="lazy">
+      <div class="facility-tag">Zone 03</div>
+      <div class="facility-info">
+        <div class="facility-name">Yoga Studio</div>
+        <div class="facility-desc">A tranquil, light-filled studio with daily instructed classes in yoga, pilates, and mindfulness.</div>
+      </div>
+    </div>
+    <div class="facility-card">
+      <img src="https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?w=800&q=75" alt="Boxing Ring" loading="lazy">
+      <div class="facility-tag">Zone 04</div>
+      <div class="facility-info">
+        <div class="facility-name">Boxing Ring</div>
+        <div class="facility-desc">Full-size regulation ring, heavy bags, speed bags, and pads. Coach-led sessions available.</div>
+      </div>
+    </div>
+    <div class="facility-card">
+      <img src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=800&q=75" alt="CrossFit Box" loading="lazy">
+      <div class="facility-tag">Zone 05</div>
+      <div class="facility-info">
+        <div class="facility-name">CrossFit Box</div>
+        <div class="facility-desc">Olympic lifting platforms, gymnastics rigs, and open WOD space for high-intensity training.</div>
+      </div>
+    </div>
+    <div class="facility-card">
+      <img src="https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?w=800&q=75" alt="Recovery Spa" loading="lazy">
+      <div class="facility-tag">Zone 06</div>
+      <div class="facility-info">
+        <div class="facility-name">Recovery Spa</div>
+        <div class="facility-desc">Infrared sauna, ice bath, steam room, and massage services for optimal recovery.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="services-header reveal">
+    <div>
+      <div class="section-tag">What We Offer</div>
+      <h2 class="section-title">OUR<br>SERVICES</h2>
+    </div>
+    <p class="section-sub">Every programme, class, and plan is engineered around your goals.</p>
+  </div>
+  <div class="services-grid reveal">
+    <div class="service-card">
+      <span class="service-icon">🏋️</span>
+      <div class="service-name">Personal Training</div>
+      <p class="service-desc">One-on-one sessions with certified trainers tailored entirely to your goals and schedule.</p>
+      <a href="#membership" class="service-link">Learn More →</a>
+    </div>
+    <div class="service-card">
+      <span class="service-icon">🔥</span>
+      <div class="service-name">Group Classes</div>
+      <p class="service-desc">50+ weekly group sessions from HIIT and spin to pilates and boxing — never train alone.</p>
+      <a href="#membership" class="service-link">Learn More →</a>
+    </div>
+    <div class="service-card">
+      <span class="service-icon">🥗</span>
+      <div class="service-name">Nutrition Coaching</div>
+      <p class="service-desc">Custom meal plans, macro tracking, and ongoing support from certified nutritionists.</p>
+      <a href="#membership" class="service-link">Learn More →</a>
+    </div>
+    <div class="service-card">
+      <span class="service-icon">📱</span>
+      <div class="service-name">App & Tracking</div>
+      <p class="service-desc">Log workouts, book classes, track progress, and connect with your trainer via our mobile app.</p>
+      <a href="#membership" class="service-link">Learn More →</a>
+    </div>
+  </div>
+</section>
+
+<!-- MEMBERSHIP -->
+<section class="membership" id="membership">
+  <div class="reveal" style="text-align:center">
+    <div class="section-tag" style="justify-content:center">Membership Plans</div>
+    <h2 class="section-title">CHOOSE YOUR<br>PATH</h2>
+    <p class="section-sub" style="margin:0 auto">No hidden fees. Cancel anytime. All plans include full facility access.</p>
+  </div>
+  <div class="plans-grid reveal">
+    <div class="plan-card">
+      <div class="plan-name">Starter</div>
+      <div class="plan-price"><span class="plan-price-label">$</span>29</div>
+      <div class="plan-period">per month · billed monthly</div>
+      <div class="plan-divider"></div>
+      <ul class="plan-features">
+        <li class="plan-feature">Full gym floor access</li>
+        <li class="plan-feature">Cardio & weights zones</li>
+        <li class="plan-feature">5 group classes/month</li>
+        <li class="plan-feature">Locker room & showers</li>
+        <li class="plan-feature">App access</li>
+      </ul>
+      <button class="plan-btn">Get Started</button>
+    </div>
+    <div class="plan-card featured">
+      <div class="plan-badge">Most Popular</div>
+      <div class="plan-name">Pro</div>
+      <div class="plan-price"><span class="plan-price-label">$</span>59</div>
+      <div class="plan-period">per month · billed monthly</div>
+      <div class="plan-divider"></div>
+      <ul class="plan-features">
+        <li class="plan-feature">Everything in Starter</li>
+        <li class="plan-feature">Unlimited group classes</li>
+        <li class="plan-feature">2 PT sessions/month</li>
+        <li class="plan-feature">Nutrition consultation</li>
+        <li class="plan-feature">Sauna & recovery access</li>
+        <li class="plan-feature">Guest pass (1/month)</li>
+      </ul>
+      <button class="plan-btn">Get Started</button>
+    </div>
+    <div class="plan-card">
+      <div class="plan-name">Elite</div>
+      <div class="plan-price"><span class="plan-price-label">$</span>99</div>
+      <div class="plan-period">per month · billed monthly</div>
+      <div class="plan-divider"></div>
+      <ul class="plan-features">
+        <li class="plan-feature">Everything in Pro</li>
+        <li class="plan-feature">Unlimited PT sessions</li>
+        <li class="plan-feature">Custom meal plan</li>
+        <li class="plan-feature">Priority class booking</li>
+        <li class="plan-feature">Massage (1/month)</li>
+        <li class="plan-feature">Unlimited guest passes</li>
+        <li class="plan-feature">VIP locker</li>
+      </ul>
+      <button class="plan-btn">Get Started</button>
+    </div>
+  </div>
+</section>
+
+<!-- TRAINERS -->
+<section class="trainers" id="trainers">
+  <div class="reveal">
+    <div class="section-tag">Expert Coaching</div>
+    <h2 class="section-title">MEET THE<br>TEAM</h2>
+    <p class="section-sub">Certified professionals. Proven results. Your success is their mission.</p>
+  </div>
+  <div class="trainers-grid reveal">
+    <div class="trainer-card">
+      <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600&q=75" alt="Marcus Reid" loading="lazy">
+      <div class="trainer-info">
+        <div class="trainer-name">Marcus Reid</div>
+        <div class="trainer-role">Strength & Conditioning</div>
+        <div class="trainer-socials"><a href="#">in</a><a href="#">tw</a></div>
+      </div>
+    </div>
+    <div class="trainer-card">
+      <img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?w=600&q=75" alt="Sofia Vega" loading="lazy">
+      <div class="trainer-info">
+        <div class="trainer-name">Sofia Vega</div>
+        <div class="trainer-role">Yoga & Wellness</div>
+        <div class="trainer-socials"><a href="#">in</a><a href="#">tw</a></div>
+      </div>
+    </div>
+    <div class="trainer-card">
+      <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=600&q=75" alt="James Okafor" loading="lazy">
+      <div class="trainer-info">
+        <div class="trainer-name">James Okafor</div>
+        <div class="trainer-role">Boxing & HIIT</div>
+        <div class="trainer-socials"><a href="#">in</a><a href="#">tw</a></div>
+      </div>
+    </div>
+    <div class="trainer-card">
+      <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&q=75" alt="Priya Sharma" loading="lazy">
+      <div class="trainer-info">
+        <div class="trainer-name">Priya Sharma</div>
+        <div class="trainer-role">Nutrition & CrossFit</div>
+        <div class="trainer-socials"><a href="#">in</a><a href="#">tw</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials" id="testimonials">
+  <div class="testimonials-header reveal">
+    <div>
+      <div class="section-tag">Member Stories</div>
+      <h2 class="section-title">REAL<br>RESULTS</h2>
+    </div>
+    <p class="section-sub">Don't take our word for it — hear from the people who show up every day.</p>
+  </div>
+  <div class="testimonials-grid reveal">
+    <div class="testimonial-card">
+      <div class="testimonial-stars">★★★★★</div>
+      <p class="testimonial-text">"IronVault completely transformed how I train. The facilities are elite and the trainers actually care. Lost 20kg in 6 months — best decision of my life."</p>
+      <div class="testimonial-author">
+        <img class="testimonial-avatar" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&q=75" alt="David K">
+        <div>
+          <div class="testimonial-name">David Kowalski</div>
+          <div class="testimonial-since">Member since 2022</div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <div class="testimonial-stars">★★★★★</div>
+      <p class="testimonial-text">"The Pro membership is worth every penny. Unlimited classes, incredible trainers, and the recovery spa is a game-changer after leg day."</p>
+      <div class="testimonial-author">
+        <img class="testimonial-avatar" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&q=75" alt="Amara T">
+        <div>
+          <div class="testimonial-name">Amara Thompson</div>
+          <div class="testimonial-since">Member since 2021</div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <div class="testimonial-stars">★★★★★</div>
+      <p class="testimonial-text">"I've been to gyms across three countries. IronVault is unmatched. The equipment, the community, and the atmosphere push you to be better every session."</p>
+      <div class="testimonial-author">
+        <img class="testimonial-avatar" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&q=75" alt="Ryan M">
+        <div>
+          <div class="testimonial-name">Ryan Mensah</div>
+          <div class="testimonial-since">Member since 2020</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<section class="cta-banner">
+  <div class="cta-bg"></div>
+  <div class="cta-content reveal">
+    <h2 class="cta-title">YOUR FIRST<br><span style="color:var(--red)">REP</span> STARTS NOW</h2>
+    <p class="cta-sub">Join over 12,000 members who chose to stop waiting and start becoming.</p>
+    <a href="#membership" class="btn-primary" style="font-size:14px;padding:18px 52px;">Claim Your Spot</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <a href="#home" class="footer-logo">IRON<span>VAULT</span></a>
+      <p class="footer-about">A premium fitness destination built for those who take their health seriously. Open 365 days a year, 5AM–midnight.</p>
+      <div class="footer-social">
+        <a href="#">f</a><a href="#">tw</a><a href="#">ig</a><a href="#">yt</a>
+      </div>
+    </div>
+    <div>
+      <div class="footer-col-title">Quick Links</div>
+      <ul class="footer-links">
+        <li><a href="#facilities">Facilities</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#membership">Membership</a></li>
+        <li><a href="#trainers">Trainers</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-col-title">Services</div>
+      <ul class="footer-links">
+        <li><a href="#">Personal Training</a></li>
+        <li><a href="#">Group Classes</a></li>
+        <li><a href="#">Nutrition Plans</a></li>
+        <li><a href="#">CrossFit</a></li>
+        <li><a href="#">Boxing</a></li>
+        <li><a href="#">Recovery Spa</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-col-title">Contact</div>
+      <ul class="footer-links">
+        <li><a href="#">📍 14 Steel Ave, London</a></li>
+        <li><a href="#">📞 +44 20 7946 0042</a></li>
+        <li><a href="#">✉️ hello@ironvault.com</a></li>
+        <li><a href="#">Mon–Fri: 5AM – Midnight</a></li>
+        <li><a href="#">Sat–Sun: 6AM – 10PM</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-copy">© 2024 <span>IronVault Gym</span>. All rights reserved.</div>
+    <div class="footer-copy">Privacy Policy · Terms of Service</div>
+  </div>
+</footer>
+
+<script src="./gym.js"></script>
+</body>
+</html>
